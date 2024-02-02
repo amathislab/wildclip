@@ -1,0 +1,10 @@
+leopard
+grant's gazelle
+vervet monkey
+porcupine
+warthog
+hippopotamus
+resting
+standing
+woodland
+grassland

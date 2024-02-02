@@ -1,0 +1,38 @@
+global:
+  save_dir: ../results/
+  clip_model_name: ViT-B/16
+  data_path: ../dataset/snaphsot_serengeti_cropped_single_animals_few_shots
+  label_col: all_captions
+  k_shot_col: k-shot
+train:
+  validation_set_fraction: null
+  pretrained: True
+  lock_vision: True
+  use_vision_adapter: True
+  learn_adapter_alpha: False
+  min_num_epochs: -1
+  max_num_epochs: 200
+  batch_size: 100
+  embed_dim: 512
+  adapter_hidden_channels: 128
+  num_samples_per_epoch: -1
+  optim:
+    optim: "adamw"
+    init_lr: 1e-7
+    weight_decay: 0.2
+    use_cosine_scheduler: True
+    warmup_length: 1000
+  transforms:
+    geometric:
+      random_resize: True
+      random_horizontal_flip: True
+      random_vertical_flip: False
+      gaussian_blur: True
+    color:
+      random_grayscale: True
+      color_jitter: True
+    p_geometric: .25
+    p_color: .25
+test:
+  batch_size: 256
+  label_col: all_captions

@@ -1,0 +1,31 @@
+There is a [age] animal.
+There is a [spe].
+There is an animal, it is [beh].
+There is an animal, it is [env].
+There is an animal, it is [tod].
+There is a [age] [spe].
+There is a [age] animal, it is [beh].
+There is a [age] animal, it is [env].
+There is a [age] animal, it is [tod].
+There is a [spe], it is [beh].
+There is a [spe], it is [env].
+There is a [spe], it is [tod].
+There is an animal, it is [beh] [env]. 
+There is an animal, it is [beh] [tod].
+There is an animal, it is [env] [tod].
+There is a [age] [spe], it is [beh].
+There is a [age] [spe], it is [env].
+There is a [age] [spe], it is [tod].
+There is a [age] animal, it is [beh] [env].
+There is a [age] animal, it is [beh] [tod].
+There is a [age] animal, it is [env] [tod].
+There is a [spe], it is [beh] [env].
+There is a [spe], it is [beh] [tod].
+There is a [spe], it is [env] [tod].
+There is an animal, it is [beh] [env] [tod].
+There is a [age] [spe], it is [beh] [env].
+There is a [age] [spe], it is [beh] [tod].
+There is a [age] [spe], it is [env] [beh].
+There is a [age] animal, it is [beh] [env] [tod].
+There is a [spe], it is [beh] [env] [tod]
+There is a [age] [spe], it is [beh] [env] [tod].

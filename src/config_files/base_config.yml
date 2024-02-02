@@ -1,0 +1,38 @@
+global:
+  save_dir: <path to output dir>
+  clip_model_name: <CLIP visual backbone>
+  data_path: <path to data>
+  label_col: <label column>
+  k_shot_col: <k-shot column or null>
+train:
+  validation_set_fraction: <fraction of the validation set to randomly draw at every epoch>
+  pretrained: <pretrained CLIP backbone>
+  lock_vision: <to freeze the visual CLIP backbone>
+  use_vision_adapter: <to add a 2-layer MLP adapter with residual connection at the tip of the visual CLIP backbone>
+  learn_adapter_alpha: <to learn the weight of the resiudal connection>
+  min_num_epochs: <minimum number of training epochs, can be set to -1>
+  max_num_epochs: <maximum number of training epochs, can be set to -1>
+  batch_size: <number of image-caption pairs per batch>
+  embed_dim: <embedding dimension of the CLIP model used>
+  adapter_hidden_channels: <Number of hidden neurons of the 2-layer MLP>
+  num_samples_per_epoch: <Number of training image-caption pairs per epoch to draw randomly>
+  optim:
+    optim: <either sgd or adamw>
+    init_lr: <initial learning rate>
+    weight_decay: <weight decay>
+    use_cosine_scheduler: <to use cosine scheduler>
+    warmup_length: <warm up length of cosine scheduler>
+  transforms:
+    geometric:
+      random_resize: True
+      random_horizontal_flip: True
+      random_vertical_flip: False
+      gaussian_blur: True
+    color:
+      random_grayscale: True
+      color_jitter: True
+    p_geometric: .25
+    p_color: .25
+test:
+  batch_size: <batch size at inference>
+  label_col: <true labels, can be null>

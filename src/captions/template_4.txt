@@ -1,0 +1,31 @@
+A picture of a [age] animal.
+A picture of a [spe].
+A picture of an animal, it is [beh].
+A picture of an animal [env].
+A picture of an animal [tod].
+A picture of a [age] [spe].
+A picture of a [age] animal, it is [beh].
+A picture of a [age] animal [env].
+A picture of a [age] animal [tod].
+A picture of a [spe], it is [beh].
+A picture of a [spe] [env].
+A picture of a [spe] [tod].
+A picture of an animal [env], it is [beh].
+A picture of an animal [tod], it is [beh].
+A picture of an animal [env] [tod].
+A picture of a [age] [spe], it is [beh].
+A picture of a [age] [spe] [env].
+A picture of a [age] [spe] [tod].
+A picture of a [age] animal [env], it is [beh].
+A picture of a [age] animal [tod], it is [beh].
+A picture of a [age] animal [env] [tod].
+A picture of a [spe] [env], it is [beh].
+A picture of a [spe] [tod], it is [beh].
+A picture of a [spe] [env] [tod].
+A picture of an animal [env] [tod], it is [beh].
+A picture of a [age] [spe] [env], it is [beh]
+A picture of a [age] [spe] [tod], it is [beh]
+A picture of a [age] [spe] [env] [tod].
+A picture of a [age] animal [env] [tod], it is [beh]
+A picture of a [spe] [env] [tod], it is [beh].
+A picture of a [age] [spe] [env] [tod], it is [beh].

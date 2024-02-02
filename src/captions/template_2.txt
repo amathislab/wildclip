@@ -1,0 +1,31 @@
+A [age] animal.
+A [spe].
+An animal [beh].
+An animal [env].
+An animal [tod].
+A [age] [spe].
+A [age] animal [beh].
+A [age] animal [env].
+A [age] animal [tod].
+A [spe] [beh].
+A [spe] [env].
+A [spe] [tod].
+An animal [beh] [env].
+An animal [beh] [tod].
+An animal [env] [tod].
+A [age] [spe] [beh].
+A [age] [spe] [env].
+A [age] [spe] [tod].
+A [age] animal [beh] [env].
+A [age] animal [beh] [tod].
+A [age] animal [env] [tod].
+A [spe] [beh] [env].
+A [spe] [beh] [tod].
+A [spe] [env] [tod].
+An animal [beh] [env] [tod].
+A [age] [spe] [beh] [env].
+A [age] [spe] [beh] [tod].
+A [age] [spe] [env] [tod].
+A [age] animal [beh] [env] [tod].
+A [spe] [beh] [env] [tod].
+A [age] [spe] [beh] [env] [tod].

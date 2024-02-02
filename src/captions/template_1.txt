@@ -1,0 +1,31 @@
+A camera-trap picture of a [age] animal.
+A camera-trap picture of a [spe].
+A camera-trap picture of an animal [beh].
+A camera-trap picture [env].
+A camera-trap picture [tod].
+A camera-trap picture of a [age] [spe].
+A camera-trap picture of a [age] animal [beh].
+A camera-trap picture of a [age] animal [env].
+A camera-trap picture of a [age] animal [tod].
+A camera-trap picture of a [spe] [beh].
+A camera-trap picture of a [spe] [env].
+A camera-trap picture of a [spe] [tod].
+A camera-trap picture of an animal [beh] [env].
+A camera-trap picture of an animal [beh] [tod].
+A camera-trap picture of an animal [env] [tod].
+A camera-trap picture of a [age] [spe] [beh].
+A camera-trap picture of a [age] [spe] [env].
+A camera-trap picture of a [age] [spe] [tod].
+A camera-trap picture of a [age] animal [beh] [env].
+A camera-trap picture of a [age] animal [beh] [tod].
+A camera-trap picture of a [age] animal [env] [tod].
+A camera-trap picture of a [spe] [beh] [env].
+A camera-trap picture of a [spe] [beh] [tod].
+A camera-trap picture of a [spe] [env] [tod].
+A camera-trap picture of an animal [beh] [env] [tod]. 
+A camera-trap picture of a [age] [spe] [beh] [env] 
+A camera-trap picture of a [age] [spe] [beh] [tod].
+A camera-trap picture of a [age] [spe] [env] [tod].
+A camera-trap picture of a [age] animal [beh] [env] [tod].
+A camera-trap picture of a [spe] [beh] [env] [tod].
+A camera-trap picture of a [age] [spe] [beh] [env] [tod].

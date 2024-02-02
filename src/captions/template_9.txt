@@ -1,0 +1,31 @@
+In this picture, a [age] animal.
+In this picture, a [spe].
+In this picture, an animal [env].
+In this picture, an animal [tod].
+In this picture, an animal is [beh].
+In this picture, a [age] [spe].
+In this picture, a [age] animal is [beh].
+In this picture, a [age] animal [env].
+In this picture, a [age] animal [tod].
+In this picture, a [spe] is [beh].
+In this picture, a [spe] [env].
+In this picture, a [spe] [tod].
+In this picture, an animal is [beh] [env].
+In this picture, an animal is [beh] [tod].
+In this picture, an animal [env] [tod].
+In this picture, a [age] [spe] is [beh].
+In this picture, a [age] [spe] [env].
+In this picture, a [age] [spe] [tod].
+In this picture, a [age] animal is [beh] [env].
+In this picture, a [age] animal is [beh] [tod].
+In this picture, a [age] animal [env] [tod].
+In this picture, a [spe] is [beh] [env].
+In this picture, a [spe] is [beh] [tod].
+In this picture, a [spe] [env] [tod].
+In this picture, an animal is [beh] [tod].
+In this picture, a [age] [spe] is [beh] [env].
+In this picture, a [age] [spe] is [beh] [tod].
+In this picture, a [age] [spe] [env] [tod].
+In this picture, a [age] animal is [beh] [env] [tod].
+In this picture, a [spe] is [beh] [env] [tod].
+In this picture, a [age] [spe] is [beh] [env] [tod].

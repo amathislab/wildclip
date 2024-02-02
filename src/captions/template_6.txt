@@ -1,0 +1,31 @@
+An image of a [age] animal.
+An image of a [spe].
+An image of an animal [beh].
+An image of an animal [env].
+An image of an animal [tod].
+An image of a [age] [spe].
+An image of a [age] animal [beh]
+An image of a [age] animal [env].
+An image of a [age] animal [tod].
+An image of a [spe] [beh].
+An image of a [spe] [env].
+An image of a [spe] [tod].
+An image of an animal [beh] [env].
+An image of an animal [beh] [tod].
+An image of an animal [env] [tod].
+An image of a [age] [spe] [beh].
+An image of a [age] [spe] [env].
+An image of a [age] [spe] [tod].
+An image of a [age] animal [beh] [env].
+An image of a [age] animal [env] [tod].
+An image of a [age] animal [beh] [tod].
+An image of an animal [beh] [env] [tod].
+An image of a [spe] [beh] [env].
+An image of a [spe] [env] [tod].
+An image of a [spe] [beh] [tod].
+An image of a [age] [spe] [beh] [env].
+An image of a [age] [spe] [beh] [tod].
+An image of a [age] [spe] [env] [tod].
+An image of a [age] animal [beh] [env] [tod].
+An image of a [spe] [beh] [env] [tod].
+An image of a [age] [spe] [beh] [env] [tod].

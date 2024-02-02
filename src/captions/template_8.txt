@@ -1,0 +1,31 @@
+A wild animal. It is a [age].
+A wild [spe].
+A wild animal [beh].
+A wild animal [env].
+A wild animal [tod].
+A wild [spe]. It is a [age].
+A wild animal [beh]. It is a [age].
+A wild animal [env]. It is a [age].
+A wild animal [tod]. It is a [age].
+A wild [spe] [beh].
+A wild [spe] [env].
+A wild [spe] [tod].
+A wild animal [beh] [env].
+A wild animal [beh] [tod].
+A wild animal [env] [tod].
+A wild [spe] [beh]. It is a [age].
+A wild [spe] [env]. It is a [age].
+A wild [spe] [tod]. It is a [age].
+A wild animal [beh] [env]. It is a [age].
+A wild animal [beh] [tod]. It is a [age].
+A wild animal [env] [tod]. It is a [age].
+A wild [spe] [beh] [env].
+A wild [spe] [beh] [tod].
+A wild [spe] [env] [tod].
+A wild animal [beh] [env] [tod].
+A wild [spe] [beh] [env]. It is a [age].
+A wild [spe] [beh] [tod]. It is a [age].
+A wild [spe] [env] [tod]. It is a [age].
+A wild animal [beh] [env] [tod]. It is a [age].
+A wild [spe] [beh] [env] [tod].
+A wild [spe] [beh] [env] [tod]. It is a [age].

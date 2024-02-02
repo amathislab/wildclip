@@ -1,0 +1,31 @@
+The [age] animal.
+The [spe].
+The animal is [beh].
+The animal is [env].
+The animal [tod].
+The [age] [spe].
+The [age] animal is [beh].
+The [age] animal is [env].
+The [age] animal [tod].
+The [spe] is [beh].
+The [spe] is [env].
+The [spe] [tod].
+The animal is [beh] [env].
+The animal is [beh] [tod].
+The animal is [env] [tod].
+The [age] [spe] is [beh].
+The [age] [spe] is [env].
+The [age] [spe] [tod].
+The [age] animal is [beh] [env].
+The [age] animal is [beh] [tod].
+The [age] animal is [env] [tod].
+The [spe] is [beh] [env].
+The [spe] is [beh] [tod].
+The [spe] is [env] [tod].
+The animal is [beh] [env] [tod].
+The [age] [spe] is [beh] [env].
+The [age] [spe] is [beh] [tod].
+The [age] [spe] is [env] [tod].
+The [age] animal is [beh] [tod].
+The [spe] is [beh] [env] [tod].
+The [age] [spe] is [beh] [env] [tod].
