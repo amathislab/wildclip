@@ -1,11 +1,11 @@
 global:
   save_dir: ../results/
   clip_model_name: ViT-B/16
-  data_path: ../dataset/snaphsot_serengeti_cropped_single_animals_few_shots
+  data_path: ../dataset/snaphsot_serengeti_cropped_single_animals
   label_col: all_captions
   k_shot_col: k-shot
 train:
-  validation_set_fraction: null
+  validation_set_fraction: 0.1
   pretrained: True
   lock_vision: True
   use_vision_adapter: True

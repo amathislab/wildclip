@@ -48,6 +48,7 @@ First clone this repository, then copy the annotation files in the folder `/data
 <h3>Model inference</h3>
 
 From the command line in the src folder:
+
 ```
 python eval_clip.py \
 -F config_files/wildclip_vitb16_t1.yml \
