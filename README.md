@@ -41,13 +41,13 @@ pip install clip @ git+https://github.com/openai/CLIP.git
 <h3>Data requirements</h3>
 
 
-For trying out the WildCLIP, please download the [model](REF) and the [test set used in our paper (6GB)](REF). The provided model is WildCLIP-LwF-t1 (500 MB).
+For trying out the WildCLIP, please download the model and the data available [here](https://zenodo.org/records/10479317).
 
-First clone this repository, then copy the data in the folder `/data`. 
+First clone this repository, then copy the annotation files in the folder `/data`, and the images in the folder /dataset. (These paths can freely be changed in the command line and configuration files, respectively).
 
 <h3>Model inference</h3>
 
-From the command line:
+From the command line in the src folder:
 ```
 python eval_clip.py \
 -F config_files/wildclip_vitb16_t1.yml \
