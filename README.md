@@ -35,7 +35,7 @@ Required python packages are listed in the requirements.yml which can be used to
 ```
 conda env create --file environment.yml
 conda activate wildclip
-pip install clip @ git+https://github.com/openai/CLIP.git
+pip install clip@git+https://github.com/openai/CLIP.git
 ```
 
 <h3>Data requirements</h3>
