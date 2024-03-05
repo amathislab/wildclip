@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 """ Custom implementation of CLIP-Adapter from Gao et al.
 https://github.com/gaopengcuhk/CLIP-Adapter

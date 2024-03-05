@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 """
 Starting from a pretrained_clip model, this script adapts it to the context of camera traps.
@@ -25,8 +25,8 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.loggers import TensorBoardLogger
 from torch.utils.data import DataLoader
 
+from datasets.datasets import SerengetiDataset, SerengetiDatasetWithVocabularyReplay
 from datasets.sampler import BalancingSampler, SequentialSampler
-from datasets.serengeti import SerengetiDataset, SerengetiDatasetWithVocabularyReplay
 from models.clip_adapter import CLIPAdapter, get_model
 from models.lightning_wrapper import CLIPLightningWrapper, CLIPLightningWrapperLwF
 from utils.clip_utils import set_device, set_seed

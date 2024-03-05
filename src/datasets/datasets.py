@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 from pathlib import Path
 from typing import List, Optional, Tuple
@@ -122,3 +122,56 @@ class SerengetiDatasetWithVocabularyReplay(SerengetiDataset):
         logits_per_vr_old_i = self.logits_per_vr_old[idx]
 
         return img, tokenized_caption, logits_per_vr_old_i
+
+
+class ImageDataset(Dataset):
+    """Basic Pytorch Dataset for prediction only
+    Useful for predict_clip.py
+
+    Attributes:
+        filenames: list of filename paths
+        transform_func: transformation to apply after loading images
+    """
+
+    def __init__(
+        self,
+        filenames: List[Path],
+        transform_func: Optional[torch.nn.Module] = None,
+    ) -> None:
+        """
+        Args:
+            filenames: list of filename paths
+            transform_func: transformation to apply after loading images
+        """
+
+        super().__init__()
+        self.filenames = filenames
+        self.transform_func = transform_func
+
+    def set_transform_func(self, transform_func: torch.nn.Module) -> None:
+        self.transform_func = transform_func
+
+    def __len__(self) -> int:
+        return len(self.filenames)
+
+    def __getitem__(self, idx) -> Tuple["torch.Tensor"]:
+        """
+        Args:
+            idx: index from self.filenames
+        Returns:
+            img: image corresponding to the idx transformed according to self.transform
+        """
+
+        if isinstance(idx, torch.Tensor):
+            idx = idx.tolist()
+
+        # Read image as tensor
+        image_path = self.filenames[idx]
+
+        with Image.open(image_path) as img:
+            if self.transform_func is not None:
+                img = self.transform_func(img)
+            else:
+                img = torchvision.transforms.ToTensor()(img)
+
+        return img

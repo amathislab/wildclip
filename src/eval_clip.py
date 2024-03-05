@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 """
 Evaluate WildCLIP on a given test set and test captions
@@ -23,7 +23,7 @@ from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import TensorBoardLogger
 from torch.utils.data import DataLoader
 
-from datasets.serengeti import SerengetiDataset
+from datasets.datasets import SerengetiDataset
 from models.clip_adapter import CLIPAdapter, get_model
 from models.lightning_wrapper import CLIPLightningWrapper
 from utils.clip_utils import load_prompts, process_features, process_logits, set_device, set_seed
@@ -139,7 +139,11 @@ def eval_clip(
 
     else:
         predictions_df = process_logits(
-            outputs, test_labels, save_filename=output_filename, prompt_set=prompt_set, sample_ids=test_sample_ids
+            outputs,
+            sample_ids=test_sample_ids,
+            prompt_set=prompt_set,
+            labels=test_labels,
+            save_filename=output_filename,
         )
 
         return predictions_df
