@@ -1,0 +1,221 @@
+,query,n_attributes,template
+0,A camera-trap picture of an adult animal.,1,template_1
+1,A camera-trap picture of an elephant.,1,template_1
+2,A camera-trap picture of an animal moving.,1,template_1
+3,A camera-trap picture in the woodland.,1,template_1
+4,A camera-trap picture at daytime.,1,template_1
+5,A camera-trap picture of a warthog.,1,template_1
+6,A camera-trap picture of a hippopotamus.,1,template_1
+7,A camera-trap picture at nighttime.,1,template_1
+8,A camera-trap picture of an animal standing.,1,template_1
+9,A camera-trap picture of a grant's gazelle.,1,template_1
+10,A camera-trap picture of an animal eating.,1,template_1
+11,A camera-trap picture of a giraffe.,1,template_1
+12,A camera-trap picture of a zebra.,1,template_1
+13,A camera-trap picture of a thomson's gazelle.,1,template_1
+14,A camera-trap picture of a female lion.,1,template_1
+15,A camera-trap picture of a buffalo.,1,template_1
+16,A camera-trap picture of a wildebeest.,1,template_1
+17,A camera-trap picture of an aardvark.,1,template_1
+18,A camera-trap picture of a spotted hyena.,1,template_1
+19,A camera-trap picture of a striped hyena.,1,template_1
+20,A camera-trap picture of a dik dik.,1,template_1
+21,A camera-trap picture of a bat-eared fox.,1,template_1
+22,A camera-trap picture of a guinea fowl.,1,template_1
+23,A camera-trap picture of a serval.,1,template_1
+24,A camera-trap picture of a hare.,1,template_1
+25,A camera-trap picture of an aardwolf.,1,template_1
+26,A camera-trap picture of an impala.,1,template_1
+27,A camera-trap picture of a hartebeest.,1,template_1
+28,A camera-trap picture of a baboon.,1,template_1
+29,A camera-trap picture of an animal resting.,1,template_1
+30,A camera-trap picture of a mongoose.,1,template_1
+31,A camera-trap picture of a cheetah.,1,template_1
+32,A camera-trap picture of a vervet monkey.,1,template_1
+33,A camera-trap picture of a wildcat.,1,template_1
+34,A camera-trap picture of a jackal.,1,template_1
+35,A camera-trap picture of a topi.,1,template_1
+36,A camera-trap picture of a secretary bird.,1,template_1
+37,A camera-trap picture of a bushbuck.,1,template_1
+38,A camera-trap picture of a leopard.,1,template_1
+39,A camera-trap picture of a male lion.,1,template_1
+40,A camera-trap picture of a reedbuck.,1,template_1
+41,A camera-trap picture of a kori bustard.,1,template_1
+42,A camera-trap picture of an ostrich.,1,template_1
+43,A camera-trap picture of a porcupine.,1,template_1
+44,A camera-trap picture of a young animal.,1,template_1
+45,A camera-trap picture of a genet.,1,template_1
+46,A camera-trap picture of a waterbuck.,1,template_1
+47,A camera-trap picture of a civet.,1,template_1
+48,A camera-trap picture of an eland.,1,template_1
+49,A camera-trap picture in the grassland.,1,template_1
+50,A camera-trap picture of a honey badger.,1,template_1
+51,A camera-trap picture of a rhinoceros.,1,template_1
+52,A camera-trap picture of a rodent.,1,template_1
+53,A camera-trap picture of a caracal.,1,template_1
+54,A camera-trap picture of a zorilla.,1,template_1
+55,A wild animal. It is an adult.,1,template_8
+56,A wild elephant.,1,template_8
+57,A wild animal moving.,1,template_8
+58,A wild animal in the woodland.,1,template_8
+59,A wild animal at daytime.,1,template_8
+60,A wild warthog.,1,template_8
+61,A wild hippopotamus.,1,template_8
+62,A wild animal at nighttime.,1,template_8
+63,A wild animal standing.,1,template_8
+64,A wild grant's gazelle.,1,template_8
+65,A wild animal eating.,1,template_8
+66,A wild giraffe.,1,template_8
+67,A wild zebra.,1,template_8
+68,A wild thomson's gazelle.,1,template_8
+69,A wild female lion.,1,template_8
+70,A wild buffalo.,1,template_8
+71,A wild wildebeest.,1,template_8
+72,A wild aardvark.,1,template_8
+73,A wild spotted hyena.,1,template_8
+74,A wild striped hyena.,1,template_8
+75,A wild dik dik.,1,template_8
+76,A wild bat-eared fox.,1,template_8
+77,A wild guinea fowl.,1,template_8
+78,A wild serval.,1,template_8
+79,A wild hare.,1,template_8
+80,A wild aardwolf.,1,template_8
+81,A wild impala.,1,template_8
+82,A wild hartebeest.,1,template_8
+83,A wild baboon.,1,template_8
+84,A wild animal resting.,1,template_8
+85,A wild mongoose.,1,template_8
+86,A wild cheetah.,1,template_8
+87,A wild vervet monkey.,1,template_8
+88,A wild wildcat.,1,template_8
+89,A wild jackal.,1,template_8
+90,A wild topi.,1,template_8
+91,A wild secretary bird.,1,template_8
+92,A wild bushbuck.,1,template_8
+93,A wild leopard.,1,template_8
+94,A wild male lion.,1,template_8
+95,A wild reedbuck.,1,template_8
+96,A wild kori bustard.,1,template_8
+97,A wild ostrich.,1,template_8
+98,A wild porcupine.,1,template_8
+99,A wild animal. It is a young.,1,template_8
+100,A wild genet.,1,template_8
+101,A wild waterbuck.,1,template_8
+102,A wild civet.,1,template_8
+103,A wild eland.,1,template_8
+104,A wild animal in the grassland.,1,template_8
+105,A wild honey badger.,1,template_8
+106,A wild rhinoceros.,1,template_8
+107,A wild rodent.,1,template_8
+108,A wild caracal.,1,template_8
+109,A wild zorilla.,1,template_8
+110,"In this picture, an adult animal.",1,template_9
+111,"In this picture, an elephant.",1,template_9
+112,"In this picture, an animal in the woodland.",1,template_9
+113,"In this picture, an animal at daytime.",1,template_9
+114,"In this picture, an animal is moving.",1,template_9
+115,"In this picture, a warthog.",1,template_9
+116,"In this picture, a hippopotamus.",1,template_9
+117,"In this picture, an animal at nighttime.",1,template_9
+118,"In this picture, an animal is standing.",1,template_9
+119,"In this picture, a grant's gazelle.",1,template_9
+120,"In this picture, an animal is eating.",1,template_9
+121,"In this picture, a giraffe.",1,template_9
+122,"In this picture, a zebra.",1,template_9
+123,"In this picture, a thomson's gazelle.",1,template_9
+124,"In this picture, a female lion.",1,template_9
+125,"In this picture, a buffalo.",1,template_9
+126,"In this picture, a wildebeest.",1,template_9
+127,"In this picture, an aardvark.",1,template_9
+128,"In this picture, a spotted hyena.",1,template_9
+129,"In this picture, a striped hyena.",1,template_9
+130,"In this picture, a dik dik.",1,template_9
+131,"In this picture, a bat-eared fox.",1,template_9
+132,"In this picture, a guinea fowl.",1,template_9
+133,"In this picture, a serval.",1,template_9
+134,"In this picture, a hare.",1,template_9
+135,"In this picture, an aardwolf.",1,template_9
+136,"In this picture, an impala.",1,template_9
+137,"In this picture, a hartebeest.",1,template_9
+138,"In this picture, a baboon.",1,template_9
+139,"In this picture, an animal is resting.",1,template_9
+140,"In this picture, a mongoose.",1,template_9
+141,"In this picture, a cheetah.",1,template_9
+142,"In this picture, a vervet monkey.",1,template_9
+143,"In this picture, a wildcat.",1,template_9
+144,"In this picture, a jackal.",1,template_9
+145,"In this picture, a topi.",1,template_9
+146,"In this picture, a secretary bird.",1,template_9
+147,"In this picture, a bushbuck.",1,template_9
+148,"In this picture, a leopard.",1,template_9
+149,"In this picture, a male lion.",1,template_9
+150,"In this picture, a reedbuck.",1,template_9
+151,"In this picture, a kori bustard.",1,template_9
+152,"In this picture, an ostrich.",1,template_9
+153,"In this picture, a porcupine.",1,template_9
+154,"In this picture, a young animal.",1,template_9
+155,"In this picture, a genet.",1,template_9
+156,"In this picture, a waterbuck.",1,template_9
+157,"In this picture, a civet.",1,template_9
+158,"In this picture, an eland.",1,template_9
+159,"In this picture, an animal in the grassland.",1,template_9
+160,"In this picture, a honey badger.",1,template_9
+161,"In this picture, a rhinoceros.",1,template_9
+162,"In this picture, a rodent.",1,template_9
+163,"In this picture, a caracal.",1,template_9
+164,"In this picture, a zorilla.",1,template_9
+165,The adult animal.,1,template_10
+166,The elephant.,1,template_10
+167,The animal is moving.,1,template_10
+168,The animal is in the woodland.,1,template_10
+169,The animal at daytime.,1,template_10
+170,The warthog.,1,template_10
+171,The hippopotamus.,1,template_10
+172,The animal at nighttime.,1,template_10
+173,The animal is standing.,1,template_10
+174,The grant's gazelle.,1,template_10
+175,The animal is eating.,1,template_10
+176,The giraffe.,1,template_10
+177,The zebra.,1,template_10
+178,The thomson's gazelle.,1,template_10
+179,The female lion.,1,template_10
+180,The buffalo.,1,template_10
+181,The wildebeest.,1,template_10
+182,The aardvark.,1,template_10
+183,The spotted hyena.,1,template_10
+184,The striped hyena.,1,template_10
+185,The dik dik.,1,template_10
+186,The bat-eared fox.,1,template_10
+187,The guinea fowl.,1,template_10
+188,The serval.,1,template_10
+189,The hare.,1,template_10
+190,The aardwolf.,1,template_10
+191,The impala.,1,template_10
+192,The hartebeest.,1,template_10
+193,The baboon.,1,template_10
+194,The animal is resting.,1,template_10
+195,The mongoose.,1,template_10
+196,The cheetah.,1,template_10
+197,The vervet monkey.,1,template_10
+198,The wildcat.,1,template_10
+199,The jackal.,1,template_10
+200,The topi.,1,template_10
+201,The secretary bird.,1,template_10
+202,The bushbuck.,1,template_10
+203,The leopard.,1,template_10
+204,The male lion.,1,template_10
+205,The reedbuck.,1,template_10
+206,The kori bustard.,1,template_10
+207,The ostrich.,1,template_10
+208,The porcupine.,1,template_10
+209,The young animal.,1,template_10
+210,The genet.,1,template_10
+211,The waterbuck.,1,template_10
+212,The civet.,1,template_10
+213,The eland.,1,template_10
+214,The animal is in the grassland.,1,template_10
+215,The honey badger.,1,template_10
+216,The rhinoceros.,1,template_10
+217,The rodent.,1,template_10
+218,The caracal.,1,template_10
+219,The zorilla.,1,template_10

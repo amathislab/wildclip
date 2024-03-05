@@ -1,0 +1,220 @@
+A camera-trap picture of an adult animal.
+A camera-trap picture of an elephant.
+A camera-trap picture of an animal moving.
+A camera-trap picture in the woodland.
+A camera-trap picture at daytime.
+A camera-trap picture of a warthog.
+A camera-trap picture of a hippopotamus.
+A camera-trap picture at nighttime.
+A camera-trap picture of an animal standing.
+A camera-trap picture of a grant's gazelle.
+A camera-trap picture of an animal eating.
+A camera-trap picture of a giraffe.
+A camera-trap picture of a zebra.
+A camera-trap picture of a thomson's gazelle.
+A camera-trap picture of a female lion.
+A camera-trap picture of a buffalo.
+A camera-trap picture of a wildebeest.
+A camera-trap picture of an aardvark.
+A camera-trap picture of a spotted hyena.
+A camera-trap picture of a striped hyena.
+A camera-trap picture of a dik dik.
+A camera-trap picture of a bat-eared fox.
+A camera-trap picture of a guinea fowl.
+A camera-trap picture of a serval.
+A camera-trap picture of a hare.
+A camera-trap picture of an aardwolf.
+A camera-trap picture of an impala.
+A camera-trap picture of a hartebeest.
+A camera-trap picture of a baboon.
+A camera-trap picture of an animal resting.
+A camera-trap picture of a mongoose.
+A camera-trap picture of a cheetah.
+A camera-trap picture of a vervet monkey.
+A camera-trap picture of a wildcat.
+A camera-trap picture of a jackal.
+A camera-trap picture of a topi.
+A camera-trap picture of a secretary bird.
+A camera-trap picture of a bushbuck.
+A camera-trap picture of a leopard.
+A camera-trap picture of a male lion.
+A camera-trap picture of a reedbuck.
+A camera-trap picture of a kori bustard.
+A camera-trap picture of an ostrich.
+A camera-trap picture of a porcupine.
+A camera-trap picture of a young animal.
+A camera-trap picture of a genet.
+A camera-trap picture of a waterbuck.
+A camera-trap picture of a civet.
+A camera-trap picture of an eland.
+A camera-trap picture in the grassland.
+A camera-trap picture of a honey badger.
+A camera-trap picture of a rhinoceros.
+A camera-trap picture of a rodent.
+A camera-trap picture of a caracal.
+A camera-trap picture of a zorilla.
+A wild animal. It is an adult.
+A wild elephant.
+A wild animal moving.
+A wild animal in the woodland.
+A wild animal at daytime.
+A wild warthog.
+A wild hippopotamus.
+A wild animal at nighttime.
+A wild animal standing.
+A wild grant's gazelle.
+A wild animal eating.
+A wild giraffe.
+A wild zebra.
+A wild thomson's gazelle.
+A wild female lion.
+A wild buffalo.
+A wild wildebeest.
+A wild aardvark.
+A wild spotted hyena.
+A wild striped hyena.
+A wild dik dik.
+A wild bat-eared fox.
+A wild guinea fowl.
+A wild serval.
+A wild hare.
+A wild aardwolf.
+A wild impala.
+A wild hartebeest.
+A wild baboon.
+A wild animal resting.
+A wild mongoose.
+A wild cheetah.
+A wild vervet monkey.
+A wild wildcat.
+A wild jackal.
+A wild topi.
+A wild secretary bird.
+A wild bushbuck.
+A wild leopard.
+A wild male lion.
+A wild reedbuck.
+A wild kori bustard.
+A wild ostrich.
+A wild porcupine.
+A wild animal. It is a young.
+A wild genet.
+A wild waterbuck.
+A wild civet.
+A wild eland.
+A wild animal in the grassland.
+A wild honey badger.
+A wild rhinoceros.
+A wild rodent.
+A wild caracal.
+A wild zorilla.
+In this picture, an adult animal.
+In this picture, an elephant.
+In this picture, an animal in the woodland.
+In this picture, an animal at daytime.
+In this picture, an animal is moving.
+In this picture, a warthog.
+In this picture, a hippopotamus.
+In this picture, an animal at nighttime.
+In this picture, an animal is standing.
+In this picture, a grant's gazelle.
+In this picture, an animal is eating.
+In this picture, a giraffe.
+In this picture, a zebra.
+In this picture, a thomson's gazelle.
+In this picture, a female lion.
+In this picture, a buffalo.
+In this picture, a wildebeest.
+In this picture, an aardvark.
+In this picture, a spotted hyena.
+In this picture, a striped hyena.
+In this picture, a dik dik.
+In this picture, a bat-eared fox.
+In this picture, a guinea fowl.
+In this picture, a serval.
+In this picture, a hare.
+In this picture, an aardwolf.
+In this picture, an impala.
+In this picture, a hartebeest.
+In this picture, a baboon.
+In this picture, an animal is resting.
+In this picture, a mongoose.
+In this picture, a cheetah.
+In this picture, a vervet monkey.
+In this picture, a wildcat.
+In this picture, a jackal.
+In this picture, a topi.
+In this picture, a secretary bird.
+In this picture, a bushbuck.
+In this picture, a leopard.
+In this picture, a male lion.
+In this picture, a reedbuck.
+In this picture, a kori bustard.
+In this picture, an ostrich.
+In this picture, a porcupine.
+In this picture, a young animal.
+In this picture, a genet.
+In this picture, a waterbuck.
+In this picture, a civet.
+In this picture, an eland.
+In this picture, an animal in the grassland.
+In this picture, a honey badger.
+In this picture, a rhinoceros.
+In this picture, a rodent.
+In this picture, a caracal.
+In this picture, a zorilla.
+The adult animal.
+The elephant.
+The animal is moving.
+The animal is in the woodland.
+The animal at daytime.
+The warthog.
+The hippopotamus.
+The animal at nighttime.
+The animal is standing.
+The grant's gazelle.
+The animal is eating.
+The giraffe.
+The zebra.
+The thomson's gazelle.
+The female lion.
+The buffalo.
+The wildebeest.
+The aardvark.
+The spotted hyena.
+The striped hyena.
+The dik dik.
+The bat-eared fox.
+The guinea fowl.
+The serval.
+The hare.
+The aardwolf.
+The impala.
+The hartebeest.
+The baboon.
+The animal is resting.
+The mongoose.
+The cheetah.
+The vervet monkey.
+The wildcat.
+The jackal.
+The topi.
+The secretary bird.
+The bushbuck.
+The leopard.
+The male lion.
+The reedbuck.
+The kori bustard.
+The ostrich.
+The porcupine.
+The young animal.
+The genet.
+The waterbuck.
+The civet.
+The eland.
+The animal is in the grassland.
+The honey badger.
+The rhinoceros.
+The rodent.
+The caracal.
+The zorilla.
