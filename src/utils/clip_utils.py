@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 from pathlib import Path
 from typing import Dict, List, Tuple, Union
@@ -62,18 +62,18 @@ def load_prompts(*prompt_files: Tuple[Union[Path, str]]) -> Dict:
 
 def process_logits(
     outputs: "torch.Tensor",
-    labels: "np.array",
-    prompt_set: List,
     sample_ids: Union["np.array", List],
+    prompt_set: List,
+    labels: "np.array" = None,
     save_filename: Union[str, Path] = None,
 ) -> "pd.DataFrame":
     """Process output from forward pass of species classifier
 
     Args:
         outputs: logits for all batches
-        labels: labels corresponding to each output
-        prompt_set: prompts for which the cosine similarity was computed. Must be unique.
         sample_ids: sample id corresponding to each output
+        prompt_set: prompts for which the cosine similarity was computed. Must be unique.
+        labels: labels corresponding to each output
         save_filename: Path to save processed outputs. If none, does not save the file
 
     Returns:
@@ -90,6 +90,9 @@ def process_logits(
     logits = np.concatenate([b[0].tolist() for b in outputs], axis=0)
     prediction_df[[*prompt_set]] = logits
     prediction_df["true"] = labels
+
+    if labels is None:
+        prediction_df = prediction_df.drop("true", axis=1)
 
     # Save to CSV
     if save_filename is not None:

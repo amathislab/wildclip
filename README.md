@@ -98,6 +98,8 @@ _Qualitative performance of WildCLIP in comparison to CLIP on the Snapshot Seren
 
 More examples can be found in the Appendix of the associated publication.
 
+Results can be reproduced in the ```src/notebooks/ResultsEvaluation.ipynb``` notebook.
+
 <h2>Data sources</h2>
 
 The complete Snapshot Serengeti dataset is available on [lila.science](https://lila.science/datasets/snapshot-serengeti).
@@ -105,6 +107,20 @@ The complete Snapshot Serengeti dataset is available on [lila.science](https://l
 Their data set is released under the [Community Data License Agreement (permissive variant)](https://cdla.dev/permissive-1-0/).
 
 The data subset provided corresponds to the test data of Snapshot Serengeti containing single animals only and cropped according to MegaDetector output (MDv4 at the time of the study).
+
+<h2>Testing on your data</h2>
+
+We also provide code to easily test the original CLIP model given a folder of images and a list of text queries.
+
+This will output a prediction CSV file of cosine similarities between each image and the provided queries where the results can be visualized with ```src/notebooks/PredictionVisualization.ipynb```:
+```
+python predict_clip.py -I /path/to/image_folder -C path/to/queries.txt -O /path/to/output_folder --zero-shot-clip
+```
+
+Since ```src/eval_clip.py``` requires true labels of the test images to run, ```src/predict_clip.py``` can also be used to run predictions with a fine-tuned wildclip model on a new set of images:
+```
+python predict_clip.py -I /path/to/image_folder -C path/to/queries.txt -O /path/to/output_folder -M wildclip_vitb16_t1_lwf_last_ckpt.pth
+```
 
 <h2>Future directions</h2>
 
@@ -120,7 +136,7 @@ In principle, to be more usable to the ecological community, WildCLIP will benef
 
 If you are interested in contributing to one of the aforementioned points, or work on a similar project and wish to collaborate, please reach out to [ECEO](https://www.epfl.ch/labs/eceo) or to the [Mathis Group](https://www.mathislab.org) at EPFL.
 
-For code related contributions, suggestions or inquires, please open a github issue.
+For code related contributions, suggestions or inquires, please open a github issue. Code is still under active development.
 
 If you use this code in your research, please consider citing us:
 

@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 """ Different pytorch lightning wrappers to train the models
 
@@ -12,7 +12,7 @@ There is a wrapper to train the vision only architecture, the CLIP-Adapter archi
 """
 
 from itertools import chain
-from typing import Dict
+from typing import Dict, Union
 
 import pytorch_lightning as pl
 import torch
@@ -489,3 +489,42 @@ class CLIPLightningWrapperLwF(CLIPLightningWrapper):
         loss = self.compute_loss(logits_per_image, logits_per_text, logits_per_vr_new, logits_per_vr_old)
 
         return loss
+
+
+class CLIPLightningWrapperPrediction(pl.LightningModule):
+    """Simple Pytorch Lightning Wrapper to only use the model for prediction
+    Useful for predict_clip.py script.
+
+    Attributes:
+        model: WildCLIP or CLIP model
+    """
+
+    def __init__(
+        self,
+        model: Union[CLIPAdapter, nn.Module],
+    ) -> None:
+        """
+        Args:
+            model: pytorch model
+        """
+        super().__init__()
+        self.model = model
+
+    def forward(self, images, texts):
+        """Implements pytorch lightning function"""
+
+        return self.model(images, texts)
+
+    def predict_step(self, batch, batch_idx):
+        """Implements pytorch lightning function"""
+
+        outputs = self(batch, self.text_tokens)
+        return outputs
+
+    def _register_text_tokens(self, text_tokens: torch.Tensor):
+        """To set text tokens as class attributes which is required for prediction step
+
+        Args:
+            text_tokens: text already tokenized by clip functions
+        """
+        self.text_tokens = text_tokens

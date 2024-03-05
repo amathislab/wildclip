@@ -1,10 +1,10 @@
-# 
+#
 # WildCLIP by Gabeff et al.
 # © ECEO and A. Mathis Lab
 # https://github.com/amathislab/wildclip
-# 
+#
 # Licensed under GNU Lesser General Public License v3.0
-# 
+#
 
 """ Pre-run replayed vocabulary on a given model
 """
