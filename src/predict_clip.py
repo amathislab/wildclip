@@ -98,7 +98,7 @@ def predict_clip(
     lightning_model.model.eval()
 
     # Get trainer
-    trainer = Trainer(accelerator="gpu", devices=1, max_epochs=-1)
+    trainer = Trainer(accelerator="gpu", devices=1, max_epochs=-1, logger=False)
 
     # Predict
     outputs = trainer.predict(model=lightning_model, dataloaders=test_dataloader, return_predictions=True)

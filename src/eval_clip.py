@@ -20,7 +20,6 @@ import pandas as pd
 import torch
 from clip import tokenize
 from pytorch_lightning import Trainer
-from pytorch_lightning.loggers import TensorBoardLogger
 from torch.utils.data import DataLoader
 
 from datasets.datasets import SerengetiDataset
@@ -50,9 +49,6 @@ def eval_clip(
     # seed, device
     seed = set_seed()
     device = set_device()
-
-    # Set up logger
-    logger = TensorBoardLogger(save_dir=cfg["save_dir"], name=cfg["experiment_name"])
 
     # test csv
     annotations_test_df = pd.read_csv(test_csv, index_col=0)
@@ -105,7 +101,7 @@ def eval_clip(
     lightning_model.prepare(eval=True)
 
     # Get trainer
-    trainer = Trainer(accelerator="gpu", devices=1, max_epochs=-1)
+    trainer = Trainer(accelerator="gpu", devices=1, max_epochs=-1, logger=False)
 
     # Predict
     outputs = trainer.predict(model=lightning_model, dataloaders=test_dataloader, return_predictions=True)
